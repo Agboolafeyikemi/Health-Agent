@@ -144,4 +144,4 @@ def manage_steps(action: str, value: int = 0) -> str:
 
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="stdio")
